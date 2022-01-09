@@ -2,8 +2,9 @@ import pyttsx3
 
 text_speech = pyttsx3.init()
 
-answer = input("Enter Some Text: ")
+def speech(source):
+    answer = source
 
-text_speech.say(answer)
-text_speech.runAndWait()
+    text_speech.say(answer)
+    text_speech.runAndWait()
 

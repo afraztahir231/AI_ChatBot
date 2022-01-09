@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>b1027688-b9c2-4dea-bc9f-a7f59a086754</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Loginapp.py</StartupFile>
+    <StartupFile>ChatBot.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,10 +21,15 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Loginapp.py" />
-    <Compile Include="res.py" />
-    <Compile Include="Speech_to_Text.py" />
+    <Compile Include="ChatBot.py" />
+    <Compile Include="learn_module.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="stt.py" />
     <Compile Include="Text_to_Audio.py" />
+    <Compile Include="weather.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
