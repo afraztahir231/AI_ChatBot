@@ -1,2 +1,3 @@
-# AI201-Semester-Project-
-This is a project for making a chatbot/assistant.
+# AI Chat Bot
+
+This is my AI Chatbot project. 
